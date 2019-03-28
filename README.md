@@ -62,15 +62,6 @@ Display the data sorted by the number of attendees. If there is a tie for the nu
 #Your code here
 ```
 
-## Level - Up: Write a Function that Parses the Artists from the Event Name
-
-
-```python
-def parse_artists(event_name):
-    #Your code here
-    return artists_list
-```
-
 ## Summary 
 
 Congratulations! In this lab, you successfully scraped a website for concert event information!
