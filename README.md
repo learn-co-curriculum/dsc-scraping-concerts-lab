@@ -1,9 +1,9 @@
 
-# Web Scraping - Lab
+# Scraping Concerts - Lab
 
 ## Introduction
 
-Now that you've seen how to scrape a simple website, it's time to again practice those skills on a full fledged site!
+Now that you've seen how to scrape a simple website, it's time to again practice those skills on a full-fledged site!
 In this lab, you'll practice your scraping skills on a music website: https://www.residentadvisor.net.
 ## Objectives
 
