@@ -8,9 +8,7 @@ In this lab, you'll practice your scraping skills on a music website: https://ww
 ## Objectives
 
 You will be able to:
-* Scrape events from a website
-* Follow links to those events to retrieve further information
-* Clean and store scraped data
+* Create a full scraping pipeline that involves traversing over many pages of a website, dealing with errors and storing data
 
 ## View the Website
 
@@ -20,7 +18,7 @@ For this lab, you'll be scraping the https://www.residentadvisor.net website. St
 
 
 ```python
-#Load the https://www.residentadvisor.net/events page in your browser.
+# Load the https://www.residentadvisor.net/events page in your browser.
 ```
 
 ## Open the Inspect Element Feature
@@ -29,7 +27,7 @@ Next, open the inspect element feature from your web browser in order to preview
 
 
 ```python
-#Open the inspect element feature in your browser
+# Open the inspect element feature in your browser
 ```
 
 ## Write a Function to Scrape all of the Events on the Given Page Events Page
@@ -313,6 +311,11 @@ df.head()
 
 
 
+
+```python
+
+```
+
 ## Summary 
 
-Congratulations! In this lab, you successfully scraped a website for concert event information!
+Congratulations! In this lab, you successfully developed a pipeline to scrape a website for concert event information!
