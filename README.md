@@ -9,6 +9,7 @@ In this lab, you'll practice your scraping skills on an online music magazine an
 ## Objectives
 
 You will be able to:
+
 * Create a full scraping pipeline that involves traversing over many pages of a website, dealing with errors and storing data
 
 ## View the Website
