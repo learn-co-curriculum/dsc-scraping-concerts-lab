@@ -201,6 +201,7 @@ print("Number of attendees:", num_attendees)
 ```python
 
 # Testing that code out on an event with a missing attendee count
+# N.B. This will crash
 last_event = first_date_events[-1]
 
 name = last_event.find("h3").text
@@ -209,20 +210,6 @@ venue_and_attendees = last_event.findAll("div", attrs={"height": 30})
 venue = venue_and_attendees[0].text
 num_attendees = int(venue_and_attendees[-1].text)
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    <ipython-input-7-aa83fdadf99e> in <module>
-          8 venue_and_attendees = last_event.findAll("div", attrs={"height": 30})
-          9 venue = venue_and_attendees[0].text
-    ---> 10 num_attendees = int(venue_and_attendees[-1].text)
-    
-
-    ValueError: invalid literal for int() with base 10: 'H0L0'
-
 
 
 ```python
@@ -245,10 +232,10 @@ print("Number of attendees:", num_attendees)
 # without attendee counts
 ```
 
-    Name: Petra, Matthusen & Lang, White & Pitsiokos, and Zorn
-    Venue: H0L0
+    Name: UnterMania II
+    Venue: TBA - New York
     Date: Sat, 30 Mar
-    Number of attendees: nan
+    Number of attendees: 457
 
 
 
